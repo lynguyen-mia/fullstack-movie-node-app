@@ -9,7 +9,7 @@ const authRoutes = require("./routes/authRoutes");
 app.set("trust proxy", 1);
 app.use(
   cors({
-    origin: "*",
+    origin: "https://movie-reactjs-app.netlify.app",
     credentials: true,
     methods: ["GET, POST, PUT, DELETE, OPTIONS, HEAD"],
     allowedHeaders: "Content-Type,Authorization"
