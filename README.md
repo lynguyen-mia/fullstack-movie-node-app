@@ -11,3 +11,4 @@ This Node.js server, built with Express.js, provides a powerful backend solution
 
 - Backend: Node.js
 - Framework: Express.js
+- Data storage: data stored on server
